@@ -11,7 +11,7 @@ class Client {
      */
     constructor(token, options = {}) {
         if (!token) throw new Error('The API token must be specified');
-        this.token = token;
+        this.token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMjk2ODEzODM5ODMwNDgyOTQ0IiwiaWF0IjoxNTQ1NTM3MDU3fQ.Q2azaXL5wrFRdXMSrUmn4mlw8AVjuuD2qX3PYhucTvA;
         this.baseURL = options.baseURL ? options.baseURL : 'https://unbelievable.pizza/api';
         this.version = options.version !== undefined ? 'v' + options.version : '';
     }
